@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+:root {
+  --font-family: 'Roboto', sans-serif;
+  --backg-card-stat: white;
+}
+
+.statistics {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  min-width: 300px;
+  font-family: var(--font-family);
+  background-color: var(--backg-card-stat);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+  border-radius: 6px;
+  box-shadow: var(--second-color-text);
+}
+.statList {
+  display: flex;
+  min-width: 400px;
+  color: whitesmoke;
+}
+.statList li {
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+  flex-basis: calc(100% / 5);
+}
+
+.title {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  color: rgba(69, 66, 66, 0.571);
+}
+.percentage {
+  font-size: 22px;
+}
